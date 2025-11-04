@@ -1,0 +1,100 @@
+body{
+    background-color: blue;
+}
+.title{
+    background-color: aqua;
+    border-color: aliceblue;
+    border: 80vh;
+}
+header{
+    border: 2px solid red;
+
+}
+main{
+    background-color: black;
+    border-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+section{
+    background-color: rgb(218, 103, 103) ;
+    border: 2px solid rgb(136, 15, 15);
+    width: 33vh;
+
+}
+footer{
+     background-color: rgb(132, 120, 120);
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
+
+/* medidas para la pantalla large de 0 a 300px */
+@media screen and (max-width:300px) {
+    body{
+        background-color: yellow;
+    }
+    .title{
+    background-color: rgb(255, 0, 0);
+    border-color: aliceblue;
+    border: 80vh;
+    }
+    section{
+    background-color: rgb(218, 103, 103) ;
+    border: 2px solid rgb(136, 15, 15);
+    width: 33vh;
+
+}
+
+}
+/* medidas para la pantalla large de 300 a 799px */
+@media screen and (min-width:301px) {
+    body{
+        background-color: rgb(255, 85, 0);
+    }
+    section{
+    background-color: rgb(218, 103, 103) ;
+    border: 2px solid rgb(136, 15, 15);
+    width: 33vh;
+
+}
+
+}
+@media screen and (min-width:800px) {
+     body{
+        background-color: rgb(0, 255, 30);
+    }
+    section{
+    background-color: rgb(218, 103, 103) ;
+    border: 2px solid rgb(136, 15, 15);
+    width: 33vh;
+
+}
+
+}
+@media screen and (min-width:1000px) {
+     body{
+        background-color: rgb(0, 183, 255);
+    }
+    section{
+    background-color: rgb(218, 103, 103) ;
+    border: 2px solid rgb(136, 15, 15);
+    width: 33vh;
+
+}
+
+}
+@media screen and (min-width:1200px) {
+     body{
+        background-color: rgb(255, 0, 204);
+    }
+    section{
+    background-color: rgb(218, 103, 103) ;
+    border: 2px solid rgb(136, 15, 15);
+    width: 33vh;
+
+}
+
+}
+/* cristiano ronaldo*/
